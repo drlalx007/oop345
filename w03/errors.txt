@@ -1,0 +1,44 @@
+In file included from w3_p2_prof.cpp:9:
+Set.h: In member function ‘bool sdds::Set<T>::add(const T&) [with T = double]’:
+Set.h:39:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   39 |         for(int i=0;i< this->numOfElements; i++)
+      |                     ~^~~~~~~~~~~~~~~~~~~~~
+In file included from w3_p2_prof.cpp:7:
+Collection.h: In instantiation of ‘T& sdds::Collection<T, CAPACITY>::operator[](int) [with T = long int; long unsigned int CAPACITY = 20]’:
+w3_p2_prof.cpp:51:45:   required from here
+Collection.h:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   45 |   if (index >= 0 && index < numOfElements) {
+      |                     ~~~~~~^~~~~~~~~~~~~~~
+In file included from w3_p2_prof.cpp:9:
+Set.h: In instantiation of ‘bool sdds::Set<T>::add(const T&) [with T = long int]’:
+w3_p2_prof.cpp:64:24:   required from here
+Set.h:21:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   21 |             for(int i=0;i< this->numOfElements; i++)
+      |                         ~^~~~~~~~~~~~~~~~~~~~~
+In file included from w3_p2_prof.cpp:7:
+Collection.h: In instantiation of ‘T& sdds::Collection<T, CAPACITY>::operator[](int) [with T = long int; long unsigned int CAPACITY = 100]’:
+w3_p2_prof.cpp:69:45:   required from here
+Collection.h:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   45 |   if (index >= 0 && index < numOfElements) {
+      |                     ~~~~~~^~~~~~~~~~~~~~~
+Collection.h: In instantiation of ‘T& sdds::Collection<T, CAPACITY>::operator[](int) [with T = double; long unsigned int CAPACITY = 30]’:
+w3_p2_prof.cpp:87:43:   required from here
+Collection.h:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+Collection.h: In instantiation of ‘T& sdds::Collection<T, CAPACITY>::operator[](int) [with T = double; long unsigned int CAPACITY = 100]’:
+w3_p2_prof.cpp:105:43:   required from here
+Collection.h:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+Collection.h: In instantiation of ‘T& sdds::Collection<T, CAPACITY>::operator[](int) [with T = sdds::Pair; long unsigned int CAPACITY = 50]’:
+w3_p2_prof.cpp:123:48:   required from here
+Collection.h:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+In file included from w3_p2_prof.cpp:9:
+Set.h: In instantiation of ‘bool sdds::Set<T>::add(const T&) [with T = sdds::Pair]’:
+w3_p2_prof.cpp:139:26:   required from here
+Set.h:21:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   21 |             for(int i=0;i< this->numOfElements; i++)
+      |                         ~^~~~~~~~~~~~~~~~~~~~~
+In file included from w3_p2_prof.cpp:7:
+Collection.h: In instantiation of ‘T& sdds::Collection<T, CAPACITY>::operator[](int) [with T = sdds::Pair; long unsigned int CAPACITY = 100]’:
+w3_p2_prof.cpp:144:48:   required from here
+Collection.h:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   45 |   if (index >= 0 && index < numOfElements) {
+      |                     ~~~~~~^~~~~~~~~~~~~~~
